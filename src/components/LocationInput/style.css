@@ -19,6 +19,7 @@
 .input div input {
     background-color: transparent;
     outline: none;
+    border-style: solid;
     border-color: #3773E5;
     border-radius: 2em;
     font-family: 'Lexend-bold', sans-serif;
@@ -26,7 +27,3 @@
     padding: 0.8em 0 0.8em 4em;
     width: 400px;
 }
-
-/* .input input:focus {
-    outline: none;
-} */
