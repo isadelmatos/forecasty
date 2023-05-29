@@ -1,0 +1,11 @@
+.card__forecast {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.card__forecast p {
+    margin-block: 0;
+    margin-inline: 0;
+}

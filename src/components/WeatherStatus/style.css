@@ -1,0 +1,30 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .weather__icon {
+    margin-top: 2em;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(234, 174, 43, 0.35) 0%, rgba(255, 214, 123, 0) 100%);
+}
+
+.card p {
+    margin-block: 0;
+    margin-inline: 0;
+}
+
+.card p.weather__status {
+    margin-top: 0.5em;
+    font-size: 1.4em;
+}
+
+.card p.weather__temperature {
+    font-size: 4em;
+}
+
+p.weather__temperature .temperature_scale {
+    color: #3773E5;
+    cursor: pointer;
+}

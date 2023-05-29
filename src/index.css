@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Lexend-medium';
+    src: url('/fonts/lexend-medium-webfont.eot');
+    src: url('/fonts/lexend-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/lexend-medium-webfont.woff2') format('woff2'),
+         url('/fonts/lexend-medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Lexend-semibold';
+    src: url('/fonts/lexend-semibold-webfont.eot');
+    src: url('/fonts/lexend-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/lexend-semibold-webfont.woff2') format('woff2'),
+         url('/fonts/lexend-semibold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Lexend-bold';
+    src: url('/fonts/lexend-bold-webfont.eot');
+    src: url('/fonts/lexend-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/lexend-bold-webfont.woff2') format('woff2'),
+         url('/fonts/lexend-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: medium;
+
+}
+
+@font-face {
+    font-family: 'Lexend-extrabold';
+    src: url('/fonts/lexend-extrabold-webfont.eot');
+    src: url('/fonts/lexend-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/lexend-extrabold-webfont.woff2') format('woff2'),
+         url('/fonts/lexend-extrabold-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+html {
+    background-color: #0C0D14;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Lexend-bold', sans-serif;
+    font-size: 1.6rem;
+    color: #FFF;
+}
+
+.forecast_days {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    padding: 5em 0;
+}
