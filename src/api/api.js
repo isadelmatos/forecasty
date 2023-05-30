@@ -1,4 +1,4 @@
-const apiKey = '854883ce7a54470abe4224043232205';
+const apiKey = import.meta.env.VITE_API_KEY;
 
 async function getData(local) {
 
