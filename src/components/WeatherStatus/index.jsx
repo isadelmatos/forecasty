@@ -1,14 +1,14 @@
 import "./style.css";
 import sunny from "../../assets/sunny_foggy_color.png";
 
-function WeatherStatus() {
+function WeatherStatus({condition, icon, temperature}) {
     return(
         <div className="card">
             <div className="weather__icon">
-                <img src={sunny}></img>
+                <img src={icon}></img>
             </div>
-            <p className="weather__status">Está nublado</p>
-            <p className="weather__temperature">20<span className="temperature_scale">°C</span></p>
+            <p className="weather__status">{condition}</p>
+            <p className="weather__temperature">{temperature}<span className="temperature_scale">°C</span></p>
         </div>
     );
 }
